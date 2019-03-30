@@ -1,5 +1,7 @@
 planned :
-
+    #instraciton for use 
+    #bach file for easy command line interface 
+    #a way to add values permemently 
     #nice way to represent vectors as function of something so each values will be a func 
     #implement function for each physics formula as we go on 
     #if it gets huge and messy to be able to divide the content to packages for nice and order module 
