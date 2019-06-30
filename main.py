@@ -25,6 +25,11 @@ class vector:
         except:
             return vector(self.x*other,self.y*other,self.z*other)
 
+    #dividing in skalar each cordinate.
+    def __truediv__(self,skalar):
+        return self.__mul__(1/skalar)
+    
+
     #for printing purpuses     
     def __str__(self):
         return '({}, {}, {})'.format(self.x,self.y,self.z)
@@ -56,5 +61,3 @@ if __name__ == "__main__":
     z = vector(0,0,1)
     O = vector()
     print('init done ')
-
-
